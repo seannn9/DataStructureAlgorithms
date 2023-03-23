@@ -1,2 +1,2 @@
 # DataStructureAlgorithms
-Collection of DSA problems set for CPE
+Collection of problem sets and quizzes for Data Structure and Algorithms course
