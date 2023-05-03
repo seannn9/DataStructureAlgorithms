@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1682574494 source:c:\users\naesk\documents\programming\c++\act5_#3\main.cpp
+	<iostream>
+	"group.h"
+
+1682574390 c:\users\naesk\documents\programming\c++\act5_#3\group.h
+
+1682574421 source:c:\users\naesk\documents\programming\c++\act5_#3\group.cpp
+	"group.h"
+	<iostream>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1682489672 source:c:\users\naesk\documents\programming\c++\act4_#2\rps.cpp
+	"rps.h"
+	<iostream>
+
+1682483655 c:\users\naesk\documents\programming\c++\act4_#2\rps.h
+
+1682491064 source:c:\users\naesk\documents\programming\c++\act4_#2\main.cpp
+	<iostream>
+	"rps.h"
+

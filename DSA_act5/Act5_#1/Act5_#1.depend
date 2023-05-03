@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1682524739 source:c:\users\naesk\documents\programming\c++\act5_#1\main.cpp
+	<iostream>
+	"vars.h"
+
+1682524688 c:\users\naesk\documents\programming\c++\act5_#1\vars.h
+
+1682524751 source:c:\users\naesk\documents\programming\c++\act5_#1\vars.cpp
+	"vars.h"
+
