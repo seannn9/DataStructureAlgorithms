@@ -1,27 +1,25 @@
 #include <iostream>
+#include <set>
 
 using namespace std;
 
 int main() {
-    int voltage[10], val, temp;
-    for (int i = 0; i < sizeof(voltage)/4; i++) {
+    int voltages[10], val;
+    set<int, greater<int>> voltageSet;
+
+    for (int i = 0; i < sizeof(voltages)/4; i++) {
         cout << "Enter voltage value: ";
         cin >> val;
-        voltage[i] = val;
+        voltages[i] = val;
     }
 
-    for (int i = 0; i < sizeof(voltage)/4; i++) {
-        for (int j = 0; j < (sizeof(voltage)/4)-i-1; j++) {
-            if (voltage[j] < voltage[j+1]) {
-                temp = voltage[j];
-                voltage[j] = voltage[j+1];
-                voltage[j+1] = temp;
-            }
-        }
+    for (int i : voltages) {
+        voltageSet.insert(i);
     }
 
-    for (int i = 0; i < sizeof(voltage)/4; i++) {
-        cout << voltage[i] << endl;
+    cout << "Input voltages in Descending order:";
+    for (int i : voltageSet) {
+        cout << i << " ";
     }
     return 0;
 }
